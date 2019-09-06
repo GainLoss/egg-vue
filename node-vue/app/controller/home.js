@@ -9,7 +9,7 @@ class HomeController extends Controller {
   }
   async test(){
     const ctx = this.ctx;
-    const results = await this.app.mysql.query('SELECT * FROM iptest where id="'+1+'"');
+    const results = await this.app.mysql.query('SELECT * FROM iptest');
     ctx.body={
       results:results
     }

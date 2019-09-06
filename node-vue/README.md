@@ -136,5 +136,8 @@ mounted () {
 }
 ```
 
+应用部署：
+https://github.com/eggjs/egg/blob/master/docs/source/zh-cn/core/deployment.md
+
 
 
