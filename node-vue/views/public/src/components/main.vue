@@ -5,14 +5,14 @@
     <div class="mainM">
         <Indicator />
         <div style="float:left;width:200px;">
-            <Sort v-bind:msg="['省质差率Top5','sort']"/>
-            <Sort v-bind:msg="['地市质差率Top5','bar']"/>
+            <Sort v-bind:msg="['省质差率Top5','line','prov']"/>
+            <Sort v-bind:msg="['地市质差率Top5','bar','city']"/>
         </div>
         <Map />
         <div style="float:left;width:200px;">
-            <Sort v-bind:msg="['近24小时波动','line']"/>
-            <Sort v-bind:msg="['近30天波动','line']"/>
-            <Sort v-bind:msg="['近12个月波动','bar']"/>
+            <Sort v-bind:msg="['近24小时波动','line','Time24']"/>
+            <Sort v-bind:msg="['近30天波动','line','Time30']"/>
+            <Sort v-bind:msg="['近12个月波动','bar','Time12']"/>
         </div>
     </div>
     

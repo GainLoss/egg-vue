@@ -1,7 +1,7 @@
 <template>
 <div class="sort">
     <div class="sortTitle">{{msg[0]}}</div>
-    <div class="sortCon"><DrawInit/></div>
+    <div class="sortCon"><DrawInit :drawEchart="msg" /></div>
 </div>
 </template>
 
@@ -10,7 +10,7 @@ import DrawInit from './echarts.vue'
 export default {
     name:'Sort',
     props:{
-        msg:Array[String,String]
+        msg:Array[String,String,String]
     },
     components:{
         DrawInit
