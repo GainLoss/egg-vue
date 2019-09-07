@@ -11,9 +11,11 @@ export default {
         drawEchart:Array[String,String,String]
     },
     mounted(){
+        if(this.drawEchart[1])
         this.drawLine(this.drawEchart[0]);
     },
     methods:{
+        //线段
         drawLine(id){
             let myChart = this.$echarts.init(document.getElementById(id))
             var option = {
@@ -61,6 +63,7 @@ export default {
 
             myChart.setOption(option)
         },
+        //柱形图
         drawBar(){
              // 基于准备好的dom，初始化echarts实例
             let myChart = this.$echarts.init(document.getElementById('ee'))
@@ -80,6 +83,7 @@ export default {
 
             myChart.setOption(option)
         }
+        
     }
 }
 </script>
