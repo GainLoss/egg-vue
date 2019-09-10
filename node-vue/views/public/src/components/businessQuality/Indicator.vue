@@ -14,13 +14,24 @@
 
 <style>
 .indicator{
-    width:100%;height:50px;
-    line-height:50px;
+    width:100%;
+    height:60px;
+    line-height:60px;
     display: flex;
     justify-content:space-around;
     margin:20px 0px;
 }
 .indicator .every{
-    border:1px solid #00ffff;border-radius:3px;color:#00ffff;padding:0px 10px;
+    width:12%;
+    border:1px solid #00ffff;
+    border-radius:3px;
+    color:#00ffff;
+    padding:0px 10px;
+    font-size:14px;
+}
+.indicator .every p{
+    width:90%;
+    height:100%;
+    margin-left:5%
 }
 </style>

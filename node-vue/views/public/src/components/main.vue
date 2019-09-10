@@ -4,12 +4,12 @@
     <Menu/>
     <div class="mainM">
         <Indicator />
-        <div style="float:left;width:200px;">
+        <div style="float:left;width:200px;margin-left:10px;">
             <Sort v-bind:msg="['省质差率Top5','line','prov']"/>
             <Sort v-bind:msg="['地市质差率Top5','bar','city']"/>
         </div>
         <Map />
-        <div style="float:left;width:200px;">
+        <div style="float:left;width:200px;margin-right:10px;">
             <Sort v-bind:msg="['近24小时波动','line','Time24']"/>
             <Sort v-bind:msg="['近30天波动','line','Time30']"/>
             <Sort v-bind:msg="['近12个月波动','bar','Time12']"/>
@@ -39,7 +39,18 @@ export default {
         Sort,
         Map,
         Menu,
-        
+    },
+    mounted:function(){
+        this.initWh();
+    },
+    methods:{
+        initWh:function(){
+            console.log(this.$)
+            var w=this.$$(window).width();
+            var h=this.$$(window).height()
+            this.$$(".main").width(w)
+            this.$$(".main").height(h)
+        }
     }
 }
 </script>

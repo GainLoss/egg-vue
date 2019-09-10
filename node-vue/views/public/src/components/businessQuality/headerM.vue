@@ -20,7 +20,7 @@ export default {
     width:30%;float:left;
 }
 .header .title{
-    width:40%;float:left;background:url(../../assets/img/title.png) no-repeat;background-size:100% 100%
+    width:40%;float:left;background:url(../../assets/img/title.png) no-repeat;background-size:100% 100%;font-size:18px;font-weight:bold;color:#00ffff;
 }
 .header .user{
     width:30%;float:left;

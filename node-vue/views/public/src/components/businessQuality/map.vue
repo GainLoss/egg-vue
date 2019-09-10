@@ -336,7 +336,7 @@ export default {
 
 <style scpoed>
 .map{
-    width:calc(100% - 400px);
+    width:calc(100% - 420px);
     height:400px;
     float:left;
 }

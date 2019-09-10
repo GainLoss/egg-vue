@@ -41,14 +41,14 @@ export default {
 .menuLeft div{
     position:relative;
     width:40px;
-    height:202px;
+    height:160px;
 }
 .menuLeft div img:first-child{
     transform: rotate(90deg);
-    width:200px;
-    height:40px;
-    margin-left: -69px;
-    margin-top: 72px;
+    width: 130px;
+    height: 40px;
+    margin-left: -36px;
+    margin-top: 66px;
 }
 .menuLeft div img:last-child{
     width:25px;
@@ -62,7 +62,7 @@ export default {
     left:18px;
     width:30px;
     text-align:center;
-    font-size:18px;
+    font-size:16px;
 }
 .menuTop{
     width:500px;
@@ -71,7 +71,7 @@ export default {
     color:#00ffff;
 }
 .menuTop div{
-    width:180px;
+    width:140px;
     height:40px;
     float:left;
     position:relative;
@@ -89,9 +89,9 @@ export default {
 .menuTop p{
     position:absolute;
     top:9px;
-    left:54px;
+    left:35px;
     text-align:center;
-    font-size:18px;
+    font-size:16px;
 }
 
 </style>

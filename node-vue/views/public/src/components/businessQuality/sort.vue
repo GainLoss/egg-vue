@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .sort{
     width:200px;
-    height:200px;
+    height:160px;
     border:1px solid #00ffff;
     border-radius:3px;
     margin-bottom:20px;
